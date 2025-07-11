@@ -6,5 +6,5 @@ object RustBridge {
     }
 
     @JvmStatic
-    external fun testClient(): FloatArray
+    external fun testClient(repeatTime: Int): FloatArray
 }
