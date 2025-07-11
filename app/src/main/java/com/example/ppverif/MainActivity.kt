@@ -67,7 +67,6 @@ class MainActivity : AppCompatActivity() {
                     resultContent += "Generate lookup table time: ${testResult[offset + 3].toString()} micros.\n";
                     resultContent += "Decrytion time: ${testResult[offset + 4].toString()} micros.\n";
                     resultContent += "-----------------------\n"
-
                 }
                 myTextView.text = resultContent
                 myButton.isEnabled = true
